@@ -111,5 +111,14 @@ void loop()
     
     Serial.println();
 
+    /**
+     * LCD display
+     */
+
+    lcd.backlight();
+    lcd.setCursor(3,0);
+    lcd.print("Hello, world!");
+    
+    
     delay(500);
 }
